@@ -1,0 +1,26 @@
+{
+ "name": "young/support",
+ "description": "support module for me.",
+ "keywords": ["SDK", "support"],
+ "license": "MIT",
+ "authors": [
+  {
+   "name": "young",
+   "email": "my24251325@gmail.com"
+  }
+ ],
+ "autoload": {
+  "psr-4": {
+   "Young\\Support\\": "."
+  }
+ },
+ "minimum-stability":"dev",
+ "require-dev": {
+  "phpunit/phpunit": "*",
+  "mockery/mockery": "^1.0@dev"
+ },
+ "require": {
+  "monolog/monolog": "1.*",
+  "ext-SimpleXML": "*"
+ }
+}

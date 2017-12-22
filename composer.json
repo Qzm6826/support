@@ -1,0 +1,16 @@
+{
+    "name": "young/support",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "牟勇",
+            "email": "my24251325@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Young\\": "src/"
+        }
+    }
+}
